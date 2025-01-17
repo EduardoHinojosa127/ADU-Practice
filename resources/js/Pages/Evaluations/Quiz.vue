@@ -60,7 +60,7 @@ const submitEvaluation = async () => {
             answers: results,
         })
         .then((res) => {
-            notify("¡Evaluación enviada con éxito!");
+            notify("¡Examen enviado con éxito!");
             setTimeout(() => {
                 router.visit(route("evaluations.index"));
             }, 2000);

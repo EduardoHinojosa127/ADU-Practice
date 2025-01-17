@@ -5,6 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
+
 class ExamAnswer extends Model
 {
     use HasFactory;
@@ -18,12 +19,13 @@ class ExamAnswer extends Model
     ];
 
     //relations
-
-    public function exam() {
+    public function exam()
+    {
         return $this->belongsTo(Exam::class);
     }
 
-    public function ask () {
+    public function ask()
+    {
         return $this->belongsTo(Ask::class);
     }
 }

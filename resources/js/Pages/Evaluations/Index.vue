@@ -35,7 +35,7 @@ async function deleteAdditional() {
                 route("evaluations.delete", { evaluation_id: docId })
             );
             dataToRender.value = response.data;
-            notify("Evaluación eliminada correctamente");
+            notify("Examen eliminado correctamente");
             closeModalDoc();
         } catch (error) {
             console.error(error);
@@ -980,7 +980,7 @@ async function deleteAdditional() {
         </div>
         <ConfirmDeleteModal
             :confirmingDeletion="confirmingDocDeletion"
-            itemType="Evaluación"
+            itemType="Examen"
             :deleteFunction="deleteAdditional"
             @closeModal="closeModalDoc"
         />

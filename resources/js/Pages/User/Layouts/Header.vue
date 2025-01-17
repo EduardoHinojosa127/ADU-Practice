@@ -120,7 +120,7 @@ const cart = computed(() => usePage().props.cart);
                         type="button"
                         class="text-white bg-gradient-to-br from-green-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
                     >
-                        Login
+                        Iniciar Sesión
                     </Link>
                     <Link
                         :href="route('register')"
@@ -128,7 +128,7 @@ const cart = computed(() => usePage().props.cart);
                         type="button"
                         class="text-white bg-gradient-to-r from-green-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
                     >
-                        Register
+                        Registrarse
                     </Link>
                 </div>
 
